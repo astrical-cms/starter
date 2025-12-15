@@ -11,6 +11,6 @@
         "src/modules/*"
     ],
     "devDependencies": {
-        "@astrical/cli": "^0.1.0"
+        "@astrical/cli": "^0.4.1"
     }
 }
