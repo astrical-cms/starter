@@ -3,5 +3,5 @@ node_modules
 dist
 
 # Site building files
-_site
+site
 
