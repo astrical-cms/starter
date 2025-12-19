@@ -1,14 +1,20 @@
 {
     "name": "astrical-starter",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "type": "module",
     "private": true,
     "scripts": {
         "dev": "astrical dev",
-        "build": "astrical build"
+        "build": "astrical build",
+        "validate": "astrical run validate",
+        "check": "astrical run check",
+        "fix": "astrical run fix"
     },
     "workspaces": [
         "src/core",
         "src/modules/*"
-    ]
+    ],
+    "dpendencies": {
+      "@astrical/cli": "^0.5.5"
+    }
 }
